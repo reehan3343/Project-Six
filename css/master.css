@@ -21,4 +21,14 @@ body {
     color: #ffffffa4;
     font-size: 18px;
 }
+.navbar .navbar_btn a {
+    background-color: #864ffe;
+    border: 1px solid #a585ff;
+    transition: 0.4s;
+}
+.navbar .navbar_btn a:hover {
+    background-color: #fdfdfd;
+    border: 1px solid #fff;
+    color: #222 !important;
+}
 /* Navigation CSS End */
