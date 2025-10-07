@@ -5,7 +5,7 @@ header {
     background-repeat: no-repeat;
     background-position: right;
     background-color: #181d26;
-    padding: 104px 0 100px;
+    padding: 104px 0 140px;
 }
 header .headline p {
     color: #c6f56f;
@@ -32,6 +32,10 @@ header .headline form .input_group input {
 }
 header .headline form .input_group input::placeholder {
     color: #b1b1b1;
+}
+header .headline form .input_group input:focus {
+    box-shadow: none;
+    border: 1px solid #864ffe;
 }
 header .headline form .input_group a {
     background-color: #864ffe;
@@ -76,6 +80,9 @@ header .headline .customers .texts p {
     font-size: 12px;
 }
 @media screen and (max-width: 768px) {
+    header {
+        padding: 104px 0 30px;
+    }
     header .headline h1 {
         font-size: 52px;
     }
