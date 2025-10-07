@@ -41,12 +41,11 @@ body {
 /* Header CSS Start */
 header {
     background: url(/images/web-host-hero-pattern.png);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
     background-color: #181d26;
     padding: 104px 0 100px;
-}
-header .headline {
-    max-width: 620px;
 }
 header .headline p {
     color: #c6f56f;
@@ -61,5 +60,8 @@ header .headline h6 {
     color: #b1b1b1;
     line-height: 24px;
     font-size: 18px;
+}
+header .image_one {
+    margin-bottom: -58px;
 }
 /* Header CSS End */
