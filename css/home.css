@@ -43,4 +43,49 @@ header .headline form .input_group a:hover {
     border: 1px solid #fff;
     color: #222 !important;
 }
+header .headline .customers .image {
+    border: 2px solid #181d26;
+    max-width: 54px;
+}
+header .headline .customers .image img {
+    width: 100%;
+}
+header .headline .customers .one {
+    background-color: #f9eb57;
+}
+header .headline .customers .two {
+    background-color: #ffb9a2;
+    margin-left: -18px;
+}
+header .headline .customers .three {
+    background-color: #c6f56f;
+    margin-left: -18px;
+}
+header .headline .customers .more {
+    background-color: #83e7ee;
+    padding: 13px 11px;
+    border: 2px solid #181d26;
+    margin-left: -18px;
+}
+header .headline .customers .texts h6 {
+    font-size: 14px;
+}
+header .headline .customers .texts p {
+    background-color: #00000000;
+    color: #b1b1b1;
+    font-size: 12px;
+}
+@media screen and (max-width: 576px) {
+    header .headline h1 {
+        font-size: 38px;
+    }
+    header .headline h6 {
+        color: #b1b1b1;
+        line-height: 22px;
+        font-size: 14px;
+    }
+    header .headline form .input_group input {
+        max-width: 160px;
+    }
+}
 /* Header CSS End */
