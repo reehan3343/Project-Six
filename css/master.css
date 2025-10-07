@@ -1,0 +1,24 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    outline: 0;
+}
+body {
+    font-style: "Inter Tight", sans-serif;
+}
+
+
+/* Navigation CSS Start */
+.navbar {
+    background-color: #13171e;
+    border-bottom: 1px solid #202731;
+}
+.navbar .nav-item .nav-link {
+    color: #fcfcfc;
+}
+.navbar .nav-item .nav-link .icon {
+    color: #ffffffa4;
+    font-size: 18px;
+}
+/* Navigation CSS End */
