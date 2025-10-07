@@ -36,32 +36,3 @@ body {
     color: #222 !important;
 }
 /* Navigation CSS End */
-
-
-/* Header CSS Start */
-header {
-    background: url(/images/web-host-hero-pattern.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-color: #181d26;
-    padding: 104px 0 100px;
-}
-header .headline p {
-    color: #c6f56f;
-    background-color: #2f333b;
-    max-width: 180px;
-    font-size: 14px;
-}
-header .headline h1 {
-    font-size: 64px;
-}
-header .headline h6 {
-    color: #b1b1b1;
-    line-height: 24px;
-    font-size: 18px;
-}
-header .image_one {
-    margin-bottom: -58px;
-}
-/* Header CSS End */
