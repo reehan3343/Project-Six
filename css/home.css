@@ -118,3 +118,16 @@ header .headline .customers .texts p {
     }
 }
 /* Header CSS End */
+
+
+/* Domain CSS Start */
+.domain {
+    background-color: #181d26;
+    padding: 100px 0;
+}
+.domain .wrapper {
+    padding: 100px 0;
+    background: linear-gradient(50deg, #ffffff80 0.51%, #fff0 64.43%);
+    background-color: #0f1217;
+}
+/* Domain CSS End */
