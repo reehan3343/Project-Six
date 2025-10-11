@@ -117,17 +117,17 @@ header .headline .customers .texts p {
 /* Header CSS End */
 
 
-/* Domain CSS Start */
-.domain {
+/* About Top CSS Start */
+.about_top {
     background-color: #181d26;
     padding: 80px 0;
 }
-.domain .wrapper {
+.about_top .wrapper {
     padding: 60px 20px;
     position: relative;
     overflow: hidden;
 }
-.domain .wrapper .domain_bg {
+.about_top .wrapper .about_top_bg {
     position: absolute;
     top: 0;
     left: 0;
@@ -137,55 +137,125 @@ header .headline .customers .texts p {
     background: linear-gradient(30deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0.22) 29%, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 1) 55%, rgba(255, 255, 255, 0.22) 66%, rgba(0, 0, 0, 1) 78%);
     filter: blur(80px);
 }
-.domain .wrapper .domain_area {
+.about_top .wrapper .about_top_area {
     filter: blur(0px);
 }
-.domain .wrapper .domain_area h1 {
+.about_top .wrapper .about_top_area h1 {
     max-width: 580px;
 }
-.domain .wrapper .domain_area form .input_group input {
+.about_top .wrapper .about_top_area form .input_group input {
     background-color: #ffffff2e;
     border: 1px solid #ffffff2e;
 }
-.domain .wrapper .domain_area form .input_group input, .domain .wrapper .domain_area form .input_group input::placeholder, .domain .wrapper .domain_area .domains li, .domain .wrapper .domain_area p {
+.about_top .wrapper .about_top_area form .input_group input, .about_top .wrapper .about_top_area form .input_group input::placeholder, .about_top .wrapper .about_top_area .domains li, .about_top .wrapper .about_top_area p {
     color: #ffffffa7;
     list-style: none;
 }
-.domain .wrapper .domain_area form .input_group input:focus {
+.about_top .wrapper .about_top_area form .input_group input:focus {
     box-shadow: none;
     border: 1px solid #864ffe;
 }
-.domain .wrapper .domain_area form button {
+.about_top .wrapper .about_top_area form button {
     background-color: #864ffe;
     border: 1px solid #a585ff;
     width: 100%;
     transition: 0.4s;
 }
-.domain .wrapper .domain_area form button:hover {
+.about_top .wrapper .about_top_area form button:hover {
     background-color: #fdfdfd;
     border: 1px solid #fff;
     color: #222 !important;
 }
-.domain .wrapper .domain_area h2 {
+.about_top .wrapper .about_top_area h2 {
     border-top: 1px solid #ffffff21;
 }
-.domain .wrapper .domain_area p .star {
+.about_top .wrapper .about_top_area p .star {
     color: #3abd0b;
 }
 @media screen and (max-width: 768px) {
-    .domain .wrapper {
+    .about_top .wrapper {
         padding: 38px 20px;
     }
-    .domain .wrapper .domain_area h2 {
+    .about_top .wrapper .about_top_area h2 {
         font-size: 16px;
     }
-    .domain .wrapper .domain_area p {
+    .about_top .wrapper .about_top_area p {
         font-size: 14px;
     }
 } 
 @media screen and (max-width: 576px) {
-    .domain .wrapper .domain_area h1 {
+    .about_top .wrapper .about_top_area h1 {
         font-size: 24px;
     }
 }
-/* Domain CSS End */
+/* About Top CSS End */
+
+
+/* About Bottom CSS Start */
+.about_btm {
+    background-color: #181d26;
+    padding: 100px 0;
+}
+.about_btm .headline p {
+    color: #c6f56f;
+    background-color: #2f333b;
+    max-width: 100px;
+    font-size: 14px;
+}
+.about_btm .headline h1 {
+    font-size: 50px;
+}
+.about_btm .headline h6 {
+    color: #b1b1b1;
+    line-height: 24px;
+}
+.about_btm .charts .chart .image {
+    max-width: 68px;
+}
+.about_btm .image_two {
+    max-width: 620px;
+}
+.about_btm .charts .chart .image img, .about_btm .image_two img {
+    width: 100%;
+}
+.about_btm .charts .chart h5 {
+    font-size: 16px;
+}
+.about_btm a {
+    border: 1px solid #fff;
+    transition: 0.4s;
+}
+.about_btm a:hover {
+    background-color: #864ffe !important;
+    border: 1px solid #a585ff;
+    color: white !important;
+}
+@media screen and (max-width: 768px) {
+    .about_btm {
+        padding: 60px 0;
+    }
+    .about_btm .headline {
+        max-width: 590px;
+    }
+    .about_btm .headline h1 {
+        font-size: 42px;
+    }
+    .about_btm .headline h6 {
+        max-width: 500px;
+    }
+    .about_btm .charts {
+        max-width: 500px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .about_btm {
+        padding: 38px 0;
+    }
+    .about_btm .headline h1 {
+        font-size: 24px;
+    }
+    .about_btm .headline h6 {
+        font-size: 14px;
+    }
+}
+/* About Bottom CSS End */
