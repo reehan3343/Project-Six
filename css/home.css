@@ -17,7 +17,6 @@ header .headline h1 {
     font-size: 64px;
 }
 header .headline h6 {
-    color: #b1b1b1;
     line-height: 24px;
     font-size: 18px;
 }
@@ -73,7 +72,6 @@ header .headline .customers .texts h6 {
 }
 header .headline .customers .texts p {
     background-color: #00000000;
-    color: #b1b1b1;
     font-size: 12px;
 }
 @media screen and (max-width: 768px) {
@@ -206,7 +204,6 @@ header .headline .customers .texts p {
     font-size: 50px;
 }
 .about_btm .headline h6 {
-    color: #b1b1b1;
     line-height: 24px;
 }
 .about_btm .charts .chart .image {
@@ -279,7 +276,6 @@ header .headline .customers .texts p {
     font-size: 50px;
 }
 .services h6 {
-    color: #b1b1b1;
     line-height: 24px;
 }
 .services h2 {
@@ -351,7 +347,90 @@ header .headline .customers .texts p {
         font-size: 14px;
     }
     .services p {
-        font-size: 12px;
+        font-size: 9.4px;
     }
 }
 /* Our Services CSS End */
+
+
+/* Pricing CSS Start */
+.pricing {
+    background-color: #181d26;
+    padding: 100px 0;
+}
+.pricing .wrapper {
+    background-color: #13171e;
+    padding: 100px 40px;
+}
+.pricing .wrapper .headline {
+    max-width: 600px;
+}
+.pricing .wrapper .headline p {
+    color: #c6f56f;
+    background-color: #2f333b;
+    max-width: 120px;
+    font-size: 14px;
+}
+.pricing .wrapper .headline h1 {
+    font-size: 50px;
+}
+.pricing .wrapper .pricing_item .texts h6 {
+    border-bottom: 1px solid #2d313a8a;
+}
+.pricing .wrapper .padding_top {
+    padding-top: 158px;
+}
+.pricing .wrapper .pricing_item .bg_dark, .pricing .wrapper .pricing_item .plan a {
+    background-color: #0f1217;
+}
+.pricing .wrapper .pricing_item .texts .blank {
+    padding: 17px;
+}
+.pricing .wrapper .pricing_item .plan a {
+    border: 1px solid #2d313a;
+    transition: 0.4s;
+}
+.pricing .wrapper .pricing_item .two a {
+    background-color: #864ffe;
+    border: 1px solid #a585ff;
+    transition: 0.4s;
+}
+.pricing .wrapper .pricing_item .plan a:hover {
+    border: 1px solid #fcfcfc;
+    background-color: #fff;
+    color: #000 !important;
+}
+.pricing .wrapper .pricing_item .one,.pricing .wrapper .pricing_item .three {
+    background-color: #181d26;
+}
+.pricing .wrapper .pricing_item .two {
+    background: #1A1A1C;
+    background: linear-gradient(52deg, rgba(26, 26, 28, 1) 67%, rgba(213, 0, 255, 1) 76%, rgba(0, 17, 255, 1) 83%, rgba(0, 255, 229, 1) 88%, rgba(242, 255, 0, 1) 97%);
+}
+@media screen and (max-width: 768px) {
+    .pricing {
+        padding: 80px 0;
+    }
+    .pricing .wrapper {
+        background-color: #13171e;
+        padding: 60px 30px;
+    }
+    .pricing .wrapper .headline h1 {
+        font-size: 38px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .pricing {
+        padding: 50px 0;
+    }
+    .pricing .wrapper {
+        padding: 38px 20px;
+    }
+    .pricing .wrapper .headline h1 {
+        font-size: 24px;
+    }
+    .pricing .wrapper .padding_top {
+        padding-top: 20px;
+    }
+}
+/* Pricing CSS End */
