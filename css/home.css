@@ -434,3 +434,56 @@ header .headline .customers .texts p {
     }
 }
 /* Pricing CSS End */
+
+
+/* Testimonial CSS Start */
+.testimonial {
+    background-color: #181d26;
+    padding: 100px 0;
+}
+.testimonial .headline {
+    max-width: 810px;
+}
+.testimonial .headline p {
+    color: #c6f56f;
+    background-color: #2f333b;
+    max-width: 120px;
+    font-size: 14px;
+}
+.testimonial .headline h1 {
+    font-size: 50px;
+}
+.testimonial .item {
+    background-color: #13171e;
+}
+.testimonial .item p {
+    border-bottom: 1px solid #2d313a8a;
+}
+.testimonial .item .image {
+    background: #2A7B9B;
+    background: linear-gradient(180deg, rgb(123, 207, 241) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    max-width: 54px;
+}
+.testimonial .item .image img {
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .testimonial {
+        padding: 30px 0 60px;
+    }
+    .testimonial .headline h1 {
+        font-size: 38px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .testimonial {
+        padding: 20px 0 38px;
+    }
+    .testimonial .headline h1 {
+        font-size: 24px;
+    }
+    .testimonial h6 {
+        font-size: 14px;
+    }
+}
+/* Testimonial CSS End */
