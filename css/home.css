@@ -447,7 +447,7 @@ header .headline .customers .texts p {
 .testimonial .headline p {
     color: #c6f56f;
     background-color: #2f333b;
-    max-width: 120px;
+    max-width: 90px;
     font-size: 14px;
 }
 .testimonial .headline h1 {
@@ -487,3 +487,117 @@ header .headline .customers .texts p {
     }
 }
 /* Testimonial CSS End */
+
+
+/* Process CSS Start */
+.process {
+    background-color: #13171e;
+    padding: 100px 0;
+}
+.process .headline {
+    max-width: 810px;
+}
+.process .headline p {
+    color: #c6f56f;
+    background-color: #2f333b;
+    max-width: 80px;
+    font-size: 14px;
+}
+.process .headline h1 {
+    font-size: 50px;
+}
+.process .item {
+    background-color: #181d26;
+}
+.process .item p {
+    background-color: #a585ff;
+    max-width: 46px;
+    max-height: 46px;
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .process {
+        padding: 60px 0;
+    }
+    .process .headline h1 {
+        font-size: 38px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .process {
+        padding: 38px 0;
+    }
+    .process .headline h1 {
+        font-size: 24px;
+    }
+    .process h6 {
+        font-size: 14px;
+    }
+}
+/* Process CSS End */
+
+
+/* Blog CSS Start */
+.blog {
+    padding: 100px 0;
+    background-color: #181d26;
+}
+.blog .headline {
+    max-width: 780px;
+}
+.blog .headline p {
+    color: #c6f56f;
+    background-color: #2f333b;
+    max-width: 70px;
+    font-size: 14px;
+}
+.blog .headline h1 {
+    font-size: 50px;
+}
+.blog .blog_page {
+    transition: 0.4s;
+}
+.blog .blog_page:hover {
+    transform: scale(1.02);
+}
+.blog .blog_page .texts {
+    background-color: #0f1217;
+}
+.blog .blog_page .texts .top h6 {
+    background-color: #242b2f;
+}
+.blog .blog_page .texts .top p {
+    font-size: 13px;
+}
+.blog .blog_page .texts .top .bullet_icon {
+    font-size: 6px;
+}
+.blog .blog_page .texts .bottom a {
+    border: 1px solid #2d313a;
+    transition: 0.4s;
+}
+.blog .blog_page .texts .bottom a:hover {
+    border: 1px solid #fcfcfc;
+    background-color: #fff;
+    color: #000 !important;
+}
+@media screen and (max-width: 768px) {
+    .blog {
+        padding: 60px 0;
+    }
+    .blog .headline h1 {
+        font-size: 38px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .blog {
+        padding: 38px 0;
+    }
+    .blog .headline h1 {
+        font-size: 24px;
+    }
+    .blog h6 {
+        font-size: 14px;
+    }
+}
+/* Blog CSS End */
