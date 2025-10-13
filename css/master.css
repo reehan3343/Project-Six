@@ -4,6 +4,9 @@
     box-sizing: 0;
     outline: 0;
 }
+body {
+    background-color: #181d26;
+}
 
 
 /* Navigation CSS Start */
@@ -27,3 +30,25 @@
     color: #222 !important;
 }
 /* Navigation CSS End */
+
+
+/* Footer CSS Start */
+footer {
+    padding: 100px 0 0;
+    background: #070b10;
+    background: linear-gradient(40deg, rgb(7, 11, 16, 1) 79%, rgba(83, 101, 237, 1) 87%, rgba(178, 83, 237, 1) 93%, rgba(83, 237, 209, 1) 100%);
+}
+footer .socials a {
+    border-right: 1px solid #212b35;
+    transition: 0.4s;
+}
+footer .socials a:hover {
+    transform: translateY(-2px);
+}
+footer .socials .last_icon {
+    border-right: none;
+}
+footer .copyright {
+    border-top: 1px solid #212b35;
+}
+/* Footer CSS End */

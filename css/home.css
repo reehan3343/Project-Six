@@ -4,7 +4,6 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-    background-color: #181d26;
     padding: 134px 0 140px;
 }
 header .headline p {
@@ -117,7 +116,6 @@ header .headline .customers .texts p {
 
 /* About Top CSS Start */
 .about_top {
-    background-color: #181d26;
     padding: 80px 0;
 }
 .about_top .wrapper {
@@ -191,7 +189,6 @@ header .headline .customers .texts p {
 
 /* About Bottom CSS Start */
 .about_btm {
-    background-color: #181d26;
     padding: 100px 0;
 }
 .about_btm .headline p {
@@ -355,7 +352,6 @@ header .headline .customers .texts p {
 
 /* Pricing CSS Start */
 .pricing {
-    background-color: #181d26;
     padding: 100px 0;
 }
 .pricing .wrapper {
@@ -438,7 +434,6 @@ header .headline .customers .texts p {
 
 /* Testimonial CSS Start */
 .testimonial {
-    background-color: #181d26;
     padding: 100px 0;
 }
 .testimonial .headline {
@@ -540,7 +535,6 @@ header .headline .customers .texts p {
 /* Blog CSS Start */
 .blog {
     padding: 100px 0;
-    background-color: #181d26;
 }
 .blog .headline {
     max-width: 780px;
