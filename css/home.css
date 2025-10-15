@@ -114,16 +114,16 @@ header .headline .customers .texts p {
 /* Header CSS End */
 
 
-/* About Top CSS Start */
-.about_top {
+/* Pages CSS Start */
+.pages {
     padding: 80px 0;
 }
-.about_top .wrapper {
+.pages .wrapper {
     padding: 60px 20px;
     position: relative;
     overflow: hidden;
 }
-.about_top .wrapper .about_top_bg {
+.pages .wrapper .pages_bg {
     position: absolute;
     top: 0;
     left: 0;
@@ -133,221 +133,221 @@ header .headline .customers .texts p {
     background: linear-gradient(30deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0.22) 29%, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 1) 55%, rgba(255, 255, 255, 0.22) 66%, rgba(0, 0, 0, 1) 78%);
     filter: blur(80px);
 }
-.about_top .wrapper .about_top_area {
+.pages .wrapper .pages_area {
     filter: blur(0px);
 }
-.about_top .wrapper .about_top_area h1 {
+.pages .wrapper .pages_area h1 {
     max-width: 580px;
 }
-.about_top .wrapper .about_top_area form .input_group input {
+.pages .wrapper .pages_area form .input_group input {
     background-color: #ffffff2e;
     border: 1px solid #ffffff2e;
 }
-.about_top .wrapper .about_top_area form .input_group input, .about_top .wrapper .about_top_area form .input_group input::placeholder, .about_top .wrapper .about_top_area .domains li, .about_top .wrapper .about_top_area p {
+.pages .wrapper .pages_area form .input_group input, .pages .wrapper .pages_area form .input_group input::placeholder, .pages .wrapper .pages_area .domains li, .pages .wrapper .pages_area p {
     color: #ffffffa7;
     list-style: none;
 }
-.about_top .wrapper .about_top_area form .input_group input:focus {
+.pages .wrapper .pages_area form .input_group input:focus {
     box-shadow: none;
     border: 1px solid #864ffe;
 }
-.about_top .wrapper .about_top_area form button {
+.pages .wrapper .pages_area form button {
     background-color: #864ffe;
     border: 1px solid #a585ff;
     width: 100%;
     transition: 0.4s;
 }
-.about_top .wrapper .about_top_area form button:hover {
+.pages .wrapper .pages_area form button:hover {
     background-color: #fdfdfd;
     border: 1px solid #fff;
     color: #222 !important;
 }
-.about_top .wrapper .about_top_area h2 {
+.pages .wrapper .pages_area h2 {
     border-top: 1px solid #ffffff21;
 }
-.about_top .wrapper .about_top_area p .star {
+.pages .wrapper .pages_area p .star {
     color: #3abd0b;
 }
 @media screen and (max-width: 768px) {
-    .about_top .wrapper {
+    .pages .wrapper {
         padding: 38px 20px;
     }
-    .about_top .wrapper .about_top_area h2 {
+    .pages .wrapper .pages_area h2 {
         font-size: 16px;
     }
-    .about_top .wrapper .about_top_area p {
+    .pages .wrapper .pages_area p {
         font-size: 14px;
     }
 } 
 @media screen and (max-width: 576px) {
-    .about_top .wrapper .about_top_area h1 {
+    .pages .wrapper .pages_area h1 {
         font-size: 24px;
     }
 }
-/* About Top CSS End */
+/* Pages CSS End */
 
 
-/* About Bottom CSS Start */
-.about_btm {
+/* About CSS Start */
+.about {
     padding: 100px 0;
 }
-.about_btm .headline p {
+.about .headline p {
     color: #c6f56f;
     background-color: #2f333b;
     max-width: 100px;
     font-size: 14px;
 }
-.about_btm .headline h1 {
+.about .headline h1 {
     font-size: 50px;
 }
-.about_btm .headline h6 {
+.about .headline h6 {
     line-height: 24px;
 }
-.about_btm .charts .chart .image {
+.about .charts .chart .image {
     max-width: 68px;
 }
-.about_btm .image_two {
+.about .image_two {
     max-width: 620px;
 }
-.about_btm .charts .chart .image img, .about_btm .image_two img {
+.about .charts .chart .image img, .about .image_two img {
     width: 100%;
 }
-.about_btm .charts .chart h5 {
+.about .charts .chart h5 {
     font-size: 16px;
 }
-.about_btm a {
+.about a {
     border: 1px solid #fff;
     transition: 0.4s;
 }
-.about_btm a:hover {
+.about a:hover {
     background-color: #864ffe !important;
     border: 1px solid #a585ff;
     color: white !important;
 }
 @media screen and (max-width: 768px) {
-    .about_btm {
+    .about {
         padding: 60px 0;
     }
-    .about_btm .headline {
+    .about .headline {
         max-width: 590px;
     }
-    .about_btm .headline h1 {
+    .about .headline h1 {
         font-size: 42px;
     }
-    .about_btm .headline h6 {
+    .about .headline h6 {
         max-width: 500px;
     }
-    .about_btm .charts {
+    .about .charts {
         max-width: 500px;
     }
 }
 @media screen and (max-width: 576px) {
-    .about_btm {
+    .about {
         padding: 38px 0;
     }
-    .about_btm .headline h1 {
+    .about .headline h1 {
         font-size: 24px;
     }
-    .about_btm .headline h6 {
+    .about .headline h6 {
         font-size: 14px;
     }
 }
-/* About Bottom CSS End */
+/* About CSS End */
 
 
-/* Our Services CSS Start */
-.services {
+/* Services CSS Start */
+.service {
     padding: 100px 0;
     background-color: #13171e;
 }
-.services .headline {
+.service .headline {
     max-width: 620px;
 }
-.services .headline p {
+.service .headline p {
     color: #c6f56f;
     background-color: #2f333b;
     max-width: 120px;
     font-size: 14px;
 }
-.services .headline h1 {
+.service .headline h1 {
     font-size: 50px;
 }
-.services h6 {
+.service h6 {
     line-height: 24px;
 }
-.services h2 {
+.service h2 {
     font-size: 40px;
 }
-.services a {
+.service a {
     border: 1px solid #fff;
     transition: 0.4s;
 }
-.services a:hover {
+.service a:hover {
     background-color: #864ffe !important;
     border: 1px solid #a585ff;
     color: white !important;
 }
-.services .customers {
+.service .customers {
     margin-left: 38px;
 }
-.services .customers .image {
+.service .customers .image {
     border: 4px solid #181d26;
     background-color: #f0eaff;
     margin-left: -18px;
     max-width: 48px;
 }
-.services .customers .image img {
+.service .customers .image img {
     width: 100%;
 }
-.services .customers .more {
+.service .customers .more {
     background-color: #83e7ee;
     padding: 8px 6px;
     font-size: 14px;
     border: 4px solid #181d26;
     margin-left: -18px;
 }
-.services .customers .texts h6 {
+.service .customers .texts h6 {
     font-size: 14px;
 }
-.services .customers .texts p {
+.service .customers .texts p {
     background-color: #00000000;
     color: #b1b1b1;
     font-size: 12px;
 }
 @media screen and (max-width: 768px) {
-    .services {
+    .service {
         padding: 60px 0;
     }
-    .services .headline h1 {
+    .service .headline h1 {
         font-size: 42px;
     }
-    .services h2 {
+    .service h2 {
         font-size: 24px;
     }
-    .services .customers {
+    .service .customers {
         margin-left: 16px;
     }
 }
 @media screen and (max-width: 576px) {
-    .services .headline h1 {
+    .service .headline h1 {
         font-size: 24px;
     }
-    .services h6 {
+    .service h6 {
         color: #b1b1b1;
         line-height: 22px;
         font-size: 14px;
     }
-    .services h2 {
+    .service h2 {
         font-size: 18px;
     }
-    .services h5 {
+    .service h5 {
         font-size: 14px;
     }
-    .services p {
+    .service p {
         font-size: 9.4px;
     }
 }
-/* Our Services CSS End */
+/* Services CSS End */
 
 
 /* Pricing CSS Start */

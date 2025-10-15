@@ -1,0 +1,81 @@
+/* Blog CSS Start */
+.blog {
+    padding: 134px 0 100px;
+}
+.blog .headline {
+    max-width: 660px;
+}
+.blog .margin_btm {
+    margin-bottom: 160px;
+}
+.blog .headline h1 {
+    font-size: 50px;
+}
+.blog .headline h1 .purple {
+    color: #864ffe;
+}
+.blog .blog_page, .blog .article {
+    transition: 0.4s;
+}
+.blog .blog_page:hover {
+    transform: scale(1.02);
+}
+.blog .article:hover {
+    transform: scale(0.98);
+}
+.blog .article .image {
+    max-width: 100%;
+    max-height: 550px;
+    overflow: hidden;
+}
+.blog .article .image img {
+    width: 100%;
+}
+.blog .blog_page .texts, .blog .article .texts {
+    background-color: #0f1217;
+}
+.blog .blog_page .texts .top h6, .blog .article .texts .top h6 {
+    background-color: #242b2f;
+    color: #f9eb57;
+}
+.blog .blog_page .texts .top p, .blog .article .texts .top p {
+    font-size: 13px;
+}
+.blog .blog_page .texts .top .bullet_icon, .blog .article .texts .top .bullet_icon {
+    font-size: 6px;
+}
+.blog .blog_page .texts .bottom a, .blog .article .texts .bottom a {
+    border: 1px solid #2d313a;
+    transition: 0.4s;
+}
+.blog .blog_page .texts .bottom a:hover, .blog .article .texts .bottom a:hover {
+    border: 1px solid #fcfcfc;
+    background-color: #fff;
+    color: #000 !important;
+}
+@media screen and (max-width: 768px) {
+    .blog {
+        padding: 100px 0 60px;
+    }
+    .blog .headline h1 {
+        font-size: 38px;
+    }
+    .blog .margin_btm {
+        margin-bottom: 60px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .blog {
+        padding: 98px 0 38px;
+    }
+    .blog .headline p, .blog h6 {
+        font-size: 14px;
+    }
+    .blog .headline h1 {
+        font-size: 24px;
+    }
+    .blog .margin_btm {
+        margin-bottom: 50px;
+    }
+}
+/* Blog CSS End */

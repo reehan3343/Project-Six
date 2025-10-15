@@ -5,6 +5,9 @@
 .contact .headline {
     max-width: 660px;
 }
+.contact .margin_btm {
+    margin-bottom: 110px;
+}
 .contact .headline h1 {
     font-size: 50px;
 }
