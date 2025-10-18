@@ -28,6 +28,16 @@
     border: 1px solid #2d313a;
     color: #fff;
 }
+.contact form .input_group input:focus, .contact form .input_group textarea:focus {
+    border: 1px solid #3e434d;
+    box-shadow: none;
+}
+.contact form .input_group p {
+    font-size: 12px;
+}
+.contact form .input_group p a {
+    color: #864ffe;
+}
 .contact form button {
     border: 1px solid #fff;
     transition: 0.4s;

@@ -31,10 +31,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav align-items-lg-center">
                     <li class="nav-item">
-                        <a class="nav-link text-white d-flex align-items-center me-1" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white d-flex align-items-center me-1" href="#">Pages</a>
+                        <a class="nav-link text-white d-flex align-items-center me-1" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white d-flex align-items-center me-1" href="#">About</a>
@@ -87,9 +84,19 @@
                 </div>
                 <div class="col-lg-8">
                     <form class="rounded-5 p-lg-5 p-md-5 px-4 py-5">
-                        <div class="input_group me-lg-4 me-0 mb-4">
-                            <h6 class="text-white fw-normal">Your name</h6>
-                            <input type="text" class="form-control rounded-5 px-3 py-2" placeholder="Enter your name">
+                        <div class="row gx-2">
+                            <div class="col-lg-6">
+                                <div class="input_group me-lg-4 me-0 mb-4">
+                                    <h6 class="text-white fw-normal">Your name</h6>
+                                    <input type="text" class="form-control rounded-5 px-3 py-2" placeholder="Enter your name">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="input_group me-lg-4 me-0 mb-4">
+                                    <h6 class="text-white fw-normal">Your number</h6>
+                                    <input type="text" class="form-control rounded-5 px-3 py-2" placeholder="Enter your number">
+                                </div>
+                            </div>
                         </div>
                         <div class="input_group me-lg-4 me-0 mb-4">
                             <h6 class="text-white fw-normal">Email address</h6>
@@ -99,9 +106,13 @@
                             <h6 class="text-white fw-normal">Subject</h6>
                             <input type="tel" class="form-control rounded-5 px-3 py-2" placeholder="Enter your subject">
                         </div>
-                        <div class="input_group me-lg-4 me-0 mb-lg-5 mb-md-5 mb-4">
+                        <div class="input_group me-lg-4 me-0 mb-4">
                             <h6 class="text-white fw-normal">Write message</h6>
                             <textarea class="form-control rounded-4 px-3 py-2" placeholder="Enter your messages" rows="7"></textarea>
+                        </div>
+                        <div class="input_group d-flex align-items-center my-3">
+                            <input type="checkbox" class="me-2">
+                            <p class="mb-0 text-white-50">I agree with the <a href="#">terms and conditions</a></p>
                         </div>
                         <button class="btn p-lg-3 p-md-3 py-2 bg-white text-black rounded-5 form-control">Submit</button>
                     </form>
