@@ -94,3 +94,73 @@
     }
 }
 /* Google Maps End */
+
+
+/* Free Trial CSS Start */
+.trial {
+    padding: 100px 0;
+    background-color: #13171e;
+}
+.trial p {
+    color: #83e7ee;
+    background-color: #2f333b;
+    max-width: 110px;
+    font-size: 14px;
+}
+.trial h1 {
+    font-size: 52px;
+}
+.trial form .input_group input {
+    background-color: #0f121700;
+    border: 1px solid #2d313a;
+    color: #b1b1b1;
+    max-width: 300px;
+}
+.trial form .input_group input::placeholder {
+    color: #b1b1b1;
+}
+.trial form .input_group input:focus {
+    box-shadow: none;
+    border: 1px solid #864ffe;
+}
+.trial form .input_group a {
+    background-color: #864ffe;
+    border: 1px solid #a585ff;
+    transition: 0.4s;
+}
+.trial form .input_group a:hover {
+    background-color: #fdfdfd;
+    border: 1px solid #fff;
+    color: #222 !important;
+}
+.trial .benefits p {
+    background-color: #00000000;
+    max-width: 100%;
+}
+.trial .benefits .checkmark {
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    color: #181d26 !important;
+}
+@media screen and (max-width: 768px) {
+    .trial {
+        padding: 60px 0;
+    }
+}
+@media screen and (max-width: 576px) {
+    .trial {
+        padding: 38px 0;
+    }
+    .trial h1 {
+        font-size: 24px;
+    }
+    .trial h6 {
+        font-size: 14px;
+    }
+    .trial form .input_group a {
+        width: 100%;
+    }
+}
+/* Free Trial CSS End */
