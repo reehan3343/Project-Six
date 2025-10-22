@@ -1,0 +1,325 @@
+body {
+    background-color: #0f1217;
+}
+
+
+/* Services CSS Start */
+.service {
+    padding: 134px 0 100px;
+}
+.service .headline {
+    max-width: 890px;
+}
+.service .margin_btm {
+    margin-bottom: 160px;
+}
+.service .headline h1, .service .headline h2 {
+    font-size: 50px;
+}
+.service .headline h6 {
+    max-width: 710px;
+}
+.service p {
+    color: #83e7ee;
+    background-color: #2f333b;
+    max-width: 110px;
+    font-size: 14px;
+}
+.service .item {
+    background-color: #181d26;
+    transition: 0.4s;
+}
+.service .item:hover {
+    transform: translateY(-6px);
+}
+.service .item a {
+    border: 1px solid #2d313a;
+    transition: 0.4s;
+}
+.service .item a:hover {
+    border: 1px solid #fcfcfc;
+    background-color: #fff;
+    color: #000 !important;
+}
+@media screen and (max-width: 768px) {
+    .service {
+        padding: 120px 0 60px;
+    }
+    .service .margin_btm {
+        margin-bottom: 120px;
+    }
+    .service .headline h2 {
+        font-size: 36px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .service {
+        padding: 100px 0 38px;
+    }
+    .service .margin_btm {
+        margin-bottom: 60px;
+    }
+    .service .headline h1 {
+        font-size: 38px;
+    }
+    .service .headline h2 {
+        font-size: 24px;
+    }
+    .service h6 {
+        font-size: 14px;
+    }
+}
+/* Services CSS End */
+
+
+/* Feature CSS Start */
+.feature {
+    padding: 100px 0;
+}
+.feature p {
+    color: #83e7ee;
+    background-color: #2f333b;
+    max-width: 90px;
+    font-size: 14px;
+}
+.feature h1 {
+    font-size: 52px;
+}
+.feature h6 .icon {
+    background-color: #2d313a;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+}
+.feature a {
+    border: 1px solid #2d313a;
+    transition: 0.4s;
+}
+.feature a:hover {
+    background-color: #864ffe;
+    border: 1px solid #a585ff;
+    color: #000 !important;
+}
+@media screen and (max-width: 768px) {
+    .feature {
+        padding: 60px 0;
+    }
+    .feature h1 {
+        font-size: 46px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .feature {
+        padding: 38px 0;
+    }
+    .feature h1 {
+        font-size: 32px;
+    }
+    .feature h6 {
+        font-size: 14px;
+    }
+}
+/* Feature CSS End */
+
+
+/* Solutions CSS Start */
+.solution {
+    padding: 60px 0;
+}
+.solution .wrapper {
+    background-color: #13171e;
+    padding: 80px;
+}
+.solution .wrapper p {
+    color: #83e7ee;
+    background-color: #2f333b;
+    max-width: 140px;
+    font-size: 14px;
+}
+.solution .wrapper h1 {
+    font-size: 48px;
+}
+.solution .wrapper h6 .icon {
+    font-size: 12px;
+}
+.solution .wrapper a {
+    border: 1px solid #2d313a;
+    transition: 0.4s;
+}
+.solution .wrapper a:hover {
+    background-color: #864ffe;
+    border: 1px solid #a585ff;
+}
+@media screen and (max-width: 768px) {
+    .solution {
+        padding: 60px 0;
+    }
+    .solution .wrapper {
+        padding: 60px;
+    }
+    .solution .wrapper h1 {
+        font-size: 46px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .solution {
+        padding: 40px 0 38px;
+    }
+    .solution .wrapper {
+        padding: 20px;
+    }
+    .solution .wrapper h1 {
+        font-size: 28px;
+    }
+    .solution .wrapper h6 {
+        font-size: 14px;
+    }
+}
+/* Solutions CSS End */
+
+
+/* Pricing CSS Start */
+.pricing {
+    padding: 60px 0;
+}
+.pricing .headline {
+    max-width: 600px;
+}
+.pricing .headline p {
+    color: #83e7ee;
+    background-color: #2f333b;
+    max-width: 110px;
+    font-size: 14px;
+}
+.pricing .headline h1 {
+    font-size: 50px;
+}
+.pricing .pricing_item {
+    background-color: #181d26;
+    padding: 32px;
+}
+.pricing .basic {
+    border: 10px solid #fff;
+}
+.pricing .pricing_item .wrapper {
+    max-width: 300px;
+}
+.pricing .pricing_item a {
+    border: 1px solid #2d313a;
+    background-color: #0f1217;
+    transition: 0.4s;
+}
+.pricing .pricing_item a:hover {
+    border: 1px solid #fcfcfc;
+    background-color: #fff;
+    color: #000 !important;
+}
+.pricing .basic a {
+    border: 1px solid #fcfcfc;
+    background-color: #fff;
+    transition: 0.4s;
+}
+.pricing .basic a {
+    background-color: #864ffe;
+    border: 1px solid #a585ff;
+    color: #fff !important;
+}
+.pricing .pricing_item ul li .active_icon, .pricing .pricing_item ul li .icon {
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    background-color: #2d313a;
+}
+@media screen and (max-width: 768px) {
+    .pricing .headline h1 {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .pricing .headline h1 {
+        font-size: 32px;
+    }
+    .pricing .pricing_item ul li {
+        font-size: 14px;
+    }
+}
+/* Pricing CSS End */
+
+
+/* Free Trial CSS Start */
+.trial {
+    padding: 100px 0;
+}
+.trial p {
+    color: #83e7ee;
+    background-color: #2f333b;
+    max-width: 110px;
+    font-size: 14px;
+}
+.trial h1 {
+    font-size: 52px;
+}
+.trial h1 .purple {
+    color: #864ffe;
+}
+.trial form .input_group input {
+    background-color: #0f121700;
+    border: 1px solid #2d313a;
+    color: #b1b1b1;
+    max-width: 300px;
+}
+.trial form .input_group input::placeholder {
+    color: #b1b1b1;
+}
+.trial form .input_group input:focus {
+    box-shadow: none;
+    border: 1px solid #864ffe;
+}
+.trial form .input_group a {
+    background-color: #864ffe;
+    border: 1px solid #a585ff;
+    transition: 0.4s;
+}
+.trial form .input_group a:hover {
+    background-color: #fdfdfd;
+    border: 1px solid #fff;
+    color: #222 !important;
+}
+.trial .benefits p {
+    background-color: #00000000;
+    max-width: 100%;
+}
+.trial .benefits .checkmark {
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    color: #181d26 !important;
+}
+@media screen and (max-width: 768px) {
+    .trial {
+        padding: 60px 0;
+    }
+}
+@media screen and (max-width: 576px) {
+    .trial {
+        padding: 38px 0;
+    }
+    .trial h1 {
+        font-size: 24px;
+    }
+    .trial h6 {
+        font-size: 14px;
+    }
+    .trial form .input_group a {
+        width: 100%;
+    }
+}
+/* Free Trial CSS End */
+
+
+/* Footer CSS Start */
+footer {
+    background: linear-gradient(44deg, rgba(64, 255, 210, 1) 0%, rgba(67, 240, 237, 1) 3%, rgba(7, 11, 16, 1) 9%, rgba(7, 11, 16, 1) 81%, rgba(0, 140, 255, 1) 95%, rgba(0, 217, 255, 1) 100%);
+}
+/* Footer CSS End */
