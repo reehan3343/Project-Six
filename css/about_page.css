@@ -1,0 +1,273 @@
+/* About Header CSS Start */
+.about_header {
+    padding: 134px 0 100px;
+}
+.about_header .headline {
+    max-width: 890px;
+}
+.about_header .margin_btm {
+    margin-bottom: 160px;
+}
+.about_header .headline h1, .about_header .headline h2 {
+    font-size: 50px;
+}
+.about_header .headline h6 {
+    max-width: 710px;
+}
+.about_header p {
+    color: #c6f56f;
+    background-color: #2f333b;
+    max-width: 180px;
+    font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+    .about_header {
+        padding: 120px 0 60px;
+    }
+    .about_header .margin_btm {
+        margin-bottom: 120px;
+    }
+    .about_header .headline h2 {
+        font-size: 36px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .about_header {
+        padding: 100px 0 38px;
+    }
+    .about_header .margin_btm {
+        margin-bottom: 60px;
+    }
+    .about_header .headline h1 {
+        font-size: 38px;
+    }
+    .about_header .headline h2 {
+        font-size: 24px;
+    }
+    .about_header h6 {
+        font-size: 14px;
+    }
+}
+/* About Header CSS End */
+
+
+/* Our Mission CSS Start */
+.mission {
+    padding: 100px 0;
+}
+.mission p {
+    color: #c6f56f;
+    background-color: #2f333b;
+    max-width: 110px;
+    font-size: 14px;
+}
+.mission h1 {
+    font-size: 54px;
+}
+@media screen and (max-width: 768px) {
+    .mission {
+        padding: 60px 0;
+    }
+    .mission h1 {
+        font-size: 46px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .mission {
+        padding: 38px 0;
+    }
+    .mission h1 {
+        font-size: 32px;
+    }
+    .mission h6 {
+        font-size: 14px;
+    }
+}
+/* Our Mission CSS End */
+
+
+/* Experience CSS Start */
+.experience {
+    padding: 100px 0;
+}
+.experience .headline h1 {
+    font-size: 52px;
+}
+.experience .headline h6 {
+    max-width: 780px;
+}
+.experience .items {
+    background-color: #0f1217;
+}
+.experience .items .border_right {
+    border-right: 1px solid #20252f;
+}
+.experience .items .item .icon_one {
+    background-color: #f9eb57;
+}
+.experience .items .item .icon_two {
+    background-color: #83e7ee;
+}
+.experience .items .item .icon_three {
+    background-color: #ffb9a2;
+}
+@media screen and (max-width: 768px) {
+    .experience {
+        padding: 60px 0;
+    }
+    .experience .headline h1 {
+        font-size: 46px;
+    }
+    .experience .items .item h4 {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .experience {
+        padding: 60px 0;
+    }
+    .experience .headline h1 {
+        font-size: 36px;
+    }
+    .experience .headline h6 {
+        font-size: 14px;
+    }
+    .experience .items .item h4 {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .experience {
+        padding: 38px 0;
+    }
+    .experience .headline h1 {
+        font-size: 28px;
+    }
+    .experience .headline h6 {
+        font-size: 14px;
+    }
+    .experience .border_right {
+        border-right: 1px solid #00000000 !important;
+        border-bottom: 1px solid #20252f;
+    }
+}
+/* Experience CSS End */
+
+
+/* Select Us CSS Start */
+.select {
+    padding: 48px 0 100px;
+}
+.select .headline p {
+    color: #c6f56f;
+    background-color: #2f333b;
+    max-width: 160px;
+    font-size: 14px;
+}
+.select .headline h1 {
+    font-size: 54px;
+}
+@media screen and (max-width: 768px) {
+    .select {
+        padding: 0 0 60px;
+    }
+    .select .headline h1 {
+        font-size: 36px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .select {
+        padding: 0 0 38px;
+    }
+    .select .headline h1 {
+        font-size: 28px;
+    }
+    .select .headline h6 {
+        font-size: 14px;
+    }
+}
+/* Select Us CSS End */
+
+
+/* Free Trial CSS Start */
+.trial {
+    padding: 60px 0;
+}
+.trial .wrapper {
+    padding: 100px 50px;
+    background-color: #070b10;
+    background: linear-gradient(47deg, rgba(255, 255, 255, 1) 0%, rgba(153, 0, 255, 1) 2%, rgba(255, 0, 234, 1) 4%, rgba(255, 85, 0, 1) 6%, rgba(255, 136, 0, 1) 7%, rgba(7, 11, 16, 1) 16%);
+}
+.trial p {
+    color: #c6f56f;
+    background-color: #2f333b;
+    max-width: 110px;
+    font-size: 14px;
+}
+.trial h1 {
+    font-size: 52px;
+}
+.trial form .input_group input {
+    background-color: #0f121700;
+    border: 1px solid #2d313a;
+    color: #b1b1b1;
+    max-width: 300px;
+}
+.trial form .input_group input::placeholder {
+    color: #b1b1b1;
+}
+.trial form .input_group input:focus {
+    box-shadow: none;
+    border: 1px solid #864ffe;
+}
+.trial form .input_group a {
+    background-color: #864ffe;
+    border: 1px solid #a585ff;
+    transition: 0.4s;
+}
+.trial form .input_group a:hover {
+    background-color: #fdfdfd;
+    border: 1px solid #fff;
+    color: #222 !important;
+}
+.trial .benefits p {
+    background-color: #00000000;
+    max-width: 100%;
+}
+.trial .benefits .checkmark {
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    color: #181d26 !important;
+}
+@media screen and (max-width: 768px) {
+    .trial {
+        padding: 0 0 60px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .trial {
+        padding: 0 0 38px;
+    }
+    .trial .wrapper {
+        padding: 60px 14px;
+    }
+    .trial h1 {
+        font-size: 24px;
+    }
+    .trial h6 {
+        font-size: 14px;
+    }
+    .trial form .input_group a {
+        width: 100%;
+    }
+}
+/* Free Trial CSS End */
+
+
+/* Footer Start */
+footer {
+    background: linear-gradient(0deg, rgb(7, 11, 16, 1) 100%);
+}
+/* Footer End */
