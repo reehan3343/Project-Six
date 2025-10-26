@@ -219,7 +219,7 @@ body {
     background-color: #fff;
     transition: 0.4s;
 }
-.pricing .basic a {
+.pricing .basic a:hover {
     background-color: #864ffe;
     border: 1px solid #a585ff;
     color: #fff !important;
