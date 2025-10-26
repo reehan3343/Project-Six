@@ -378,11 +378,6 @@
     font-size: 12px;
     color: #181d26 !important;
 }
-@media screen and (max-width: 768px) {
-    .trial {
-        padding: 60px 0;
-    }
-}
 @media screen and (max-width: 576px) {
     .trial {
         padding: 30px 0;

@@ -1,0 +1,302 @@
+/* Our Team CSS Start */
+.team {
+    padding: 134px 0 100px;
+    background-color: #070b10;
+}
+.team .headline {
+    max-width: 630px;
+}
+.team .margin_btm {
+    margin-bottom: 160px;
+}
+.team .headline h1, .team .headline h2 {
+    font-size: 50px;
+}
+.team .headline h6 {
+    max-width: 710px;
+}
+.team p {
+    color: #c6f56f;
+    background-color: #2f333b;
+    max-width: 100px;
+    font-size: 14px;
+}
+.team .item {
+    border: 14px solid #181d26;
+    background-color: #181d26;
+}
+.team .item .image {
+    background-color: #13171e;
+    position: relative;
+}
+@media screen and (max-width: 768px) {
+    .team {
+        padding: 120px 0 60px;
+    }
+    .team .margin_btm {
+        margin-bottom: 120px;
+    }
+    .team .headline h2 {
+        font-size: 36px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .team {
+        padding: 100px 0 38px;
+    }
+    .team .margin_btm {
+        margin-bottom: 60px;
+    }
+    .team .headline h1 {
+        font-size: 38px;
+    }
+    .team .headline h2 {
+        font-size: 24px;
+    }
+    .team h6 {
+        font-size: 14px;
+    }
+}
+/* Our Team CSS End */
+
+
+/* Experience CSS Start */
+.experience {
+    padding: 100px 0;
+    background-color: #070b10;
+}
+.experience .headline h1 {
+    font-size: 52px;
+}
+.experience .headline h6 {
+    max-width: 780px;
+}
+.experience .items {
+    background-color: #1a1a1c;
+}
+.experience .items .border_right {
+    border-right: 1px solid #313131;
+}
+.experience .items .item .icon_one {
+    background-color: #f9eb57;
+}
+.experience .items .item .icon_two {
+    background-color: #83e7ee;
+}
+.experience .items .item .icon_three {
+    background-color: #ffb9a2;
+}
+@media screen and (max-width: 768px) {
+    .experience {
+        padding: 60px 0;
+    }
+    .experience .headline h1 {
+        font-size: 46px;
+    }
+    .experience .items .item h4 {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .experience {
+        padding: 60px 0;
+    }
+    .experience .headline h1 {
+        font-size: 36px;
+    }
+    .experience .headline h6 {
+        font-size: 14px;
+    }
+    .experience .items .item h4 {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .experience {
+        padding: 38px 0;
+    }
+    .experience .headline h1 {
+        font-size: 28px;
+    }
+    .experience .headline h6 {
+        font-size: 14px;
+    }
+    .experience .border_right {
+        border-right: 1px solid #00000000 !important;
+        border-bottom: 1px solid #313131;
+    }
+}
+/* Experience CSS End */
+
+
+/* Testimonial CSS Start */
+.testimonial {
+    padding: 100px 0;
+}
+.testimonial .headline {
+    max-width: 810px;
+}
+.testimonial .headline p {
+    color: #c6f56f;
+    background-color: #2f333b;
+    max-width: 90px;
+    font-size: 14px;
+}
+.testimonial .headline h1 {
+    font-size: 50px;
+}
+.testimonial .headline h1 .purple {
+    color: #864ffe;
+}
+.testimonial .item {
+    background-color: #13171e;
+}
+.testimonial .item p {
+    border-bottom: 1px solid #2d313a8a;
+}
+.testimonial .item .image {
+    background: #ffffff;
+    background: linear-gradient(148deg, rgba(255, 255, 255, 1) 0%, rgb(173, 135, 255) 100%);
+    max-width: 54px;
+}
+.testimonial .item .image img {
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .testimonial {
+        padding: 30px 0 60px;
+    }
+    .testimonial .headline h1 {
+        font-size: 38px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .testimonial {
+        padding: 20px 0 38px;
+    }
+    .testimonial .headline h1 {
+        font-size: 24px;
+    }
+    .testimonial h6 {
+        font-size: 14px;
+    }
+}
+/* Testimonial CSS End */
+
+
+/* FAQ CSS Start */
+.faq {
+    padding: 0 0 100px;
+}
+.faq p {
+    color: #c6f56f;
+    background-color: #2f333b;
+    max-width: 60px;
+    font-size: 14px;
+}
+.faq h1 {
+    font-size: 54px;
+    max-width: 500px;
+}
+.faq .accordion-header .accordion-button, .faq .accordion-item {
+    background-color: #00000000;
+}
+.faq .accordion-header .accordion-button:focus {
+    box-shadow: none;
+    border-bottom: 1px solid #2d313a;
+}
+@media screen and (max-width: 768px) {
+    .faq {
+        padding: 0 0 60px;
+    }
+    .faq h1 {
+        font-size: 40px;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .faq {
+        padding: 0 0 38px;
+    }
+    .faq h1 {
+        font-size: 32px;
+    }
+    .faq .accordion-header .accordion-button {
+        font-size: 16px !important;
+    }
+}
+/* FAQ CSS End */
+
+
+/* Free Trial CSS Start */
+.trial {
+    padding: 100px 0;
+    background-color: #0f1217;
+}
+.trial p {
+    color: #c6f56f;
+    background-color: #2f333b;
+    max-width: 110px;
+    font-size: 14px;
+}
+.trial h1 {
+    font-size: 52px;
+}
+.trial form .input_group input {
+    background-color: #0f121700;
+    border: 1px solid #2d313a;
+    color: #b1b1b1;
+    max-width: 300px;
+}
+.trial form .input_group input::placeholder {
+    color: #b1b1b1;
+}
+.trial form .input_group input:focus {
+    box-shadow: none;
+    border: 1px solid #864ffe;
+}
+.trial form .input_group a {
+    background-color: #864ffe;
+    border: 1px solid #a585ff;
+    transition: 0.4s;
+}
+.trial form .input_group a:hover {
+    background-color: #fdfdfd;
+    border: 1px solid #fff;
+    color: #222 !important;
+}
+.trial .benefits p {
+    background-color: #00000000;
+    max-width: 100%;
+}
+.trial .benefits .checkmark {
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    color: #181d26 !important;
+}
+@media screen and (max-width: 768px) {
+    .trial {
+        padding: 60px 0 0;
+    }
+} 
+@media screen and (max-width: 576px) {
+    .trial h1 {
+        font-size: 24px;
+    }
+    .trial h6 {
+        font-size: 14px;
+    }
+    .trial form .input_group a {
+        width: 100%;
+    }
+}
+/* Free Trial CSS End */
+
+
+/* Footer Start */
+footer {
+    background: linear-gradient(0deg, rgb(15, 18, 23, 1) 100%);
+}
+/* Footer End */
