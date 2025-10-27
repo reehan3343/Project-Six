@@ -24,10 +24,36 @@
 .team .item {
     border: 14px solid #181d26;
     background-color: #181d26;
+    position: relative;
 }
 .team .item .image {
     background-color: #13171e;
-    position: relative;
+}
+.team .item .texts {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: 0.4s;
+}
+.team .item:hover .texts {
+    bottom: 0;
+    opacity: 1;
+}
+.team .item .socials a {
+    border-right: 1px solid #212b35;
+    transition: 0.4s;
+}
+.team .item .socials a:hover {
+    transform: translateY(-2px);
+    color: #fff !important;
+}
+.team .item .socials .last_icon {
+    border-right: none;
+}
+.team .item .texts .wrapper {
+    background-color: #070b10;
 }
 @media screen and (max-width: 768px) {
     .team {
